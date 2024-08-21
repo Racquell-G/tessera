@@ -12,7 +12,6 @@ import {
 const poppins = Poppins({ subsets: ["latin"], weight: ['400', '500', '600', '700'], variable: '--font-poppins' });
 
 export const metadata: Metadata = {
-  title: "Home | tessera",
   description: "tessera is a platform for event management",
   icons: {
     icon: '/assets/images/logo.svg'

@@ -1,36 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Overview 
+A powerful web application for organizing and managing events of all sizes. Whether you're hosting virtual conference, summit, concert, workshop, or community gathering, tessera provides an intuitive interface and robust features to ensure smooth and successful event management.
 
-## Getting Started
+## Key Features (so far):
+Event Creation and Management: Easily create and manage multiple events with customizable options for dates, locations, event details, pictures, and links.
 
-First, run the development server:
+User Registration and Authentication: Allow users to register, log in, and create their events.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## What I Hope to Achieve:
+Ticketing System: Seamlessly handle ticket sales, including different pricing tiers, early-bird specials, and promo codes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Payment Integration: Support for multiple payment gateways to process transactions efficiently and securely.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Seat selection: The ability to choose where you want to sit in a reserved seating event. Prices may vary based on seat location
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Customizable Event Pages: Design and personalize event pages with rich content, including images, descriptions, and schedules.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Email Notifications: Automated email notifications for ticket confirmations, reminders, and updates.
