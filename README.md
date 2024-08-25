@@ -26,4 +26,4 @@ Day 3: Working on setting up the backend with Mongoose as well as deploying with
 
 Day 4: Working on the "Create Event" page as well as the "Final Summary" page (and hopefully the future purchase ticket page). Lots and lots of debugging this day.
 
-Day 5: Wokring on the homepage again. This time focusing on displaying created events. Thinking about how making edits to the wireframing I had for this page.
+Day 5: Wokring on the homepage again. This time focusing on displaying created events. Thinking about making edits to the wireframe I had for this page (perhaps subcategory divs such as, Recommended for You, Popular Events, Newly Created, etc).
