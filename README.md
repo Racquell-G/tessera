@@ -6,6 +6,20 @@ Event Creation and Management: Easily create and manage multiple events with cus
 
 User Registration and Authentication: Allow users to register, log in, and create their events.
 
+## Tech Stack
+- Node.js
+- Next.js
+- TypeScript
+- TailwindCSS
+- Stripe (Still researching)
+- Zod
+- React Hook Form
+- Shadcn
+- uploadthing
+- Mongoose
+- Clerk
+- Vercel
+
 ## What I Hope to Achieve:
 Ticketing System: Seamlessly handle ticket sales, including different pricing tiers, early-bird specials, and promo codes.
 
@@ -27,3 +41,5 @@ Day 3: Working on setting up the backend with Mongoose as well as deploying with
 Day 4: Working on the "Create Event" page as well as the "Final Summary" page (and hopefully the future purchase ticket page). Lots and lots of debugging this day.
 
 Day 5: Wokring on the homepage again. This time focusing on displaying created events. Thinking about making edits to the wireframe I had for this page (perhaps subcategory divs such as, Recommended for You, Popular Events, Newly Created, etc).
+
+Day 6: Made an option so that if you are the organizer you can edit and delete your event easily. It also stores the previously entered data, so that editing an event is easier. Along with that 2 more events were made and now events listed under the same category will populate in a "Related Events" section under an event you visit.
