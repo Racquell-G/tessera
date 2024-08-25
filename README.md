@@ -20,8 +20,10 @@ Email Notifications: Automated email notifications for ticket confirmations, rem
 ## Work Log (5 hours each day):
 Day 1: Learning more about Next.js, Typescript, Clerk, Mongoose, Vercel, ShadCn and much more. Lots and lots of wireframing. And finally icon and images creation.
 
-Day 2: Working on the homepage and users profiles in Clerk. Lots of debugging.
+Day 2: Working on the homepage and layout as well as the users profiles in Clerk. Lots of debugging.
 
-Day 3: Working on setting up the backend with Mongoose as well as Deploying with Vercel. Hooray!!
+Day 3: Working on setting up the backend with Mongoose as well as deploying with Vercel. Hooray!!
 
-Day 4: Working on the "Create Event" page as well as the "Final Summary" (and hopefully the purchase ticket page). Lots and lots of debugging this day.
+Day 4: Working on the "Create Event" page as well as the "Final Summary" page (and hopefully the future purchase ticket page). Lots and lots of debugging this day.
+
+Day 5: Wokring on the homepage again. This time focusing on displaying created events. Thinking about how making edits to the wireframing I had for this page.
