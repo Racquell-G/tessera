@@ -19,7 +19,7 @@ const Header = () => {
     <header className='w-full border-b'>
         <div className="wrapper flex items-center justify-between">
             <Link href="/" className="w-36">
-                <Image src="/assets/images/logo2.svg" width={128} height={38} 
+                <Image src="/assets/images/logo4.svg" width={128} height={38} 
                 alt="Tessera logo" />
             </Link>
 
