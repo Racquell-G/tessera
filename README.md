@@ -44,4 +44,4 @@ Day 5: Wokring on the homepage again. This time focusing on displaying created e
 
 Day 6: Made an option so that if you are the organizer you can edit and delete your event easily. It also stores the previously entered data, so that editing an event is easier. Along with that 2 more events were made and now events listed under the same category will populate in a "Related Events" section under an event you visit.
 
-Day 7: New logo created. More representative of how the platform operates.
+Day 7: New logo created. More representative of how the platform operates.Also spent time researching how to implement a seating chart for events. However this is just a start.
