@@ -11,12 +11,12 @@ User Registration and Authentication: Allow users to register, log in, and creat
 - Next.js
 - TypeScript
 - TailwindCSS
+- MongoDB
 - Stripe (Still researching)
 - Zod
 - React Hook Form
 - Shadcn
 - uploadthing
-- Mongoose
 - Clerk
 - Vercel
 
