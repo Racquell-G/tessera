@@ -49,3 +49,5 @@ Day 7: New logo created. More representative of how the platform operates.Also s
 Day 8: Began working on re-wireframing the My Profile page after the inital one.
 
 Day 9: Modified events page a little so that it doesn't get overcrowded. Also began working on my profile page as well as a checkout button that will most likely incorporate Stripe for payments.
+
+Day 10: Implemented a checkout page with Stripe. Working on setting up the backend for completed purchases.
