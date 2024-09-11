@@ -52,4 +52,10 @@ Day 9: Modified events page a little so that it doesn't get overcrowded. Also be
 
 Day 10: Implemented a checkout page with Stripe. Working on setting up the backend for completed purchases.
 
-Day 11: Debugging Stipe issues. Updating profile page.
+Day 11: Debugging Stipe issues. Updating profile page to possibly display tickets that are purchased.
+
+Day 12: Debugging Stripe issues.
+
+Day 13: Still debugging Stripe issues. I feel like I am narrowing down what's going wrong.
+
+Day 14: Finally resolved the database link issue for Stripe. Now will look into any webhook failures while pursuing more work on the website. As of now I will work on customizing acceptable formats of payments.

@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { loadStripe } from '@stripe/stripe-js';
 import { IEvent } from '@/lib/database/models/event.model';
 import { Button } from '../ui/button';
-import { checkoutOrder } from '@/lib/actions/order.actions';
+import { checkoutOrder, createOrder } from '@/lib/actions/order.actions';
 
 loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY!);
 
@@ -26,10 +26,15 @@ const Checkout = ({ event, userId }: { event: IEvent, userId: string }) => {
       price: event.price,
       isFree: event.isFree,
       buyerId: userId
-    }
+    };
 
-    await checkoutOrder(order);
-  }
+    try {
+      //Call the server-side checkoutOrder function
+      await checkoutOrder(order);
+    } catch (error) {
+      console.error("Error during checkout:", error);
+    }
+  };
 
   return (
     <form action={onCheckout} method="post">

@@ -38,6 +38,16 @@ export const checkoutOrder = async (order: CheckoutOrderParams) => {
       cancel_url: `${process.env.NEXT_PUBLIC_SERVER_URL}/`,
     });
 
+    // Create the order in the database
+    const orderData: CreateOrderParams = {
+      stripeId: session.id, // Store the Stripe session ID for reference
+      createdAt: new Date(), // Set the current date/time
+      totalAmount: String(price), // Ensure this matches the type in CreateOrderParams
+      eventId: order.eventId,
+      buyerId: order.buyerId
+    };
+    await createOrder(orderData);
+
     redirect(session.url!)
   } catch (error) {
     throw error;
@@ -53,9 +63,11 @@ export const createOrder = async (order: CreateOrderParams) => {
       event: order.eventId,
       buyer: order.buyerId,
     });
+    console.log('Order created successfully:', newOrder);
 
     return JSON.parse(JSON.stringify(newOrder));
   } catch (error) {
+    console.error('Error creating order:', error);
     handleError(error);
   }
 }
