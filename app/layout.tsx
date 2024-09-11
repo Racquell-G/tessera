@@ -14,7 +14,7 @@ const poppins = Poppins({ subsets: ["latin"], weight: ['400', '500', '600', '700
 export const metadata: Metadata = {
   description: "tessera is a platform for event management",
   icons: {
-    icon: '/assets/images/logo.svg'
+    icon: '/assets/images/logo4.svg'
   }
 };
 
