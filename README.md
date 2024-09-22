@@ -59,3 +59,5 @@ Day 12: Debugging Stripe issues.
 Day 13: Still debugging Stripe issues. I feel like I am narrowing down what's going wrong.
 
 Day 14: Finally resolved the database link issue for Stripe. Now will look into any webhook failures while pursuing more work on the website. As of now I will work on customizing acceptable formats of payments.
+
+Day 15: Added an order details page for event organizers, that way the can see who is attending there events. I also finally got around to adding a functional search and filter for the home page. That way finding events on the platform is easier once there are more events taking up the page. I realized that navigation buttons were being shown even where there was a small amount of events displayed, this issue was resolved.
