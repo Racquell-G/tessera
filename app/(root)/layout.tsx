@@ -3,8 +3,12 @@ import Header from "@/components/shared/Header";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "tessera",
-};
+  title: 'tessera',
+  description: 'An event management platform',
+  icons: {
+    icon: '/assets/images/favicon.svg'
+  }
+}
 
 export default function RootLayout({
   children,
